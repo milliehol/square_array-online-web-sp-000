@@ -2,8 +2,8 @@ def square_array(array)
   # your code here
   array.each do |x|
     new = x**2
-  array.pop(x)
-  array.push(new)
+array.delete_at(array.index(x))
+array.push(new)
 
 end
 end
