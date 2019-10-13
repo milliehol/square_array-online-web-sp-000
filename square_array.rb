@@ -3,7 +3,7 @@ def square_array(array)
   array.each do |x|
     new = x**2
 array.delete_at(array.index(x))
-array.push(new)
+array.unshift(new)
 
 end
 end
