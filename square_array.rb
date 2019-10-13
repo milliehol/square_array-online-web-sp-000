@@ -4,6 +4,7 @@ def square_array(array)
     new = x**2
 array.delete_at(array.index(x))
 array.unshift(new)
+array.reverse
 
 end
 end
